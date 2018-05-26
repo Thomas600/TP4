@@ -1,0 +1,34 @@
+package modele;
+import java.util.*;
+/**
+ *
+ * @author Thomas
+ */
+public abstract class Comparer  implements Comparable<Fonds>, Fonds{
+    public boolean equals(Fonds amount){
+        
+        Fonds fonds1= new Fonds();
+        fonds1.getAmount();
+        if (amount == fonds1)
+        
+            return true;
+        
+        else()
+            return false;
+    }
+    public int compareTo(Fonds amount){
+        
+        Fonds fonds1= new Fonds();
+        fonds1.getAmount();
+        if (amount > fonds1){
+        
+            return 1;
+        }
+        
+        if (amount < fonds1){
+            
+            return -1;
+    }
+
+
+    }
